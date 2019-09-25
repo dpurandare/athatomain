@@ -1,0 +1,1032 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>y.tab.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <logicalFolder name="analysis" displayName="analysis" projectFiles="true">
+        <itemPath>analysis/Analyzer.cpp</itemPath>
+        <itemPath>analysis/Analyzer.h</itemPath>
+        <itemPath>analysis/pugiconfig.hpp</itemPath>
+        <itemPath>analysis/pugixml.cpp</itemPath>
+        <itemPath>analysis/pugixml.hpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="ast" displayName="ast" projectFiles="true">
+        <itemPath>ast/CobCommunicationSection.cpp</itemPath>
+        <itemPath>ast/CobCommunicationSection.h</itemPath>
+        <itemPath>ast/CobConfigurationSection.cpp</itemPath>
+        <itemPath>ast/CobConfigurationSection.h</itemPath>
+        <itemPath>ast/CobDataDivision.cpp</itemPath>
+        <itemPath>ast/CobDataDivision.h</itemPath>
+        <itemPath>ast/CobDeclaratives.cpp</itemPath>
+        <itemPath>ast/CobDeclaratives.h</itemPath>
+        <itemPath>ast/CobEnvironmentDivision.cpp</itemPath>
+        <itemPath>ast/CobEnvironmentDivision.h</itemPath>
+        <itemPath>ast/CobFieldRecord.cpp</itemPath>
+        <itemPath>ast/CobFieldRecord.h</itemPath>
+        <itemPath>ast/CobFieldRecordList.cpp</itemPath>
+        <itemPath>ast/CobFieldRecordList.h</itemPath>
+        <itemPath>ast/CobFile.cpp</itemPath>
+        <itemPath>ast/CobFile.h</itemPath>
+        <itemPath>ast/CobFileControl.cpp</itemPath>
+        <itemPath>ast/CobFileControl.h</itemPath>
+        <itemPath>ast/CobFileDescription.cpp</itemPath>
+        <itemPath>ast/CobFileDescription.h</itemPath>
+        <itemPath>ast/CobFileSection.cpp</itemPath>
+        <itemPath>ast/CobFileSection.h</itemPath>
+        <itemPath>ast/CobFunctionDivision.cpp</itemPath>
+        <itemPath>ast/CobFunctionDivision.h</itemPath>
+        <itemPath>ast/CobIOControl.cpp</itemPath>
+        <itemPath>ast/CobIOControl.h</itemPath>
+        <itemPath>ast/CobIdentificationDivision.cpp</itemPath>
+        <itemPath>ast/CobIdentificationDivision.h</itemPath>
+        <itemPath>ast/CobInputOutputSection.cpp</itemPath>
+        <itemPath>ast/CobInputOutputSection.h</itemPath>
+        <itemPath>ast/CobLinkageSection.cpp</itemPath>
+        <itemPath>ast/CobLinkageSection.h</itemPath>
+        <itemPath>ast/CobLocalStorageSection.cpp</itemPath>
+        <itemPath>ast/CobLocalStorageSection.h</itemPath>
+        <itemPath>ast/CobObject.cpp</itemPath>
+        <itemPath>ast/CobObject.h</itemPath>
+        <itemPath>ast/CobProcedureDivision.cpp</itemPath>
+        <itemPath>ast/CobProcedureDivision.h</itemPath>
+        <itemPath>ast/CobProject.cpp</itemPath>
+        <itemPath>ast/CobProject.h</itemPath>
+        <itemPath>ast/CobScreenSection.cpp</itemPath>
+        <itemPath>ast/CobScreenSection.h</itemPath>
+        <itemPath>ast/CobSortMergeFileControl.cpp</itemPath>
+        <itemPath>ast/CobSortMergeFileControl.h</itemPath>
+        <itemPath>ast/CobWorkingStorageSection.cpp</itemPath>
+        <itemPath>ast/CobWorkingStorageSection.h</itemPath>
+        <itemPath>ast/RecordKey.cpp</itemPath>
+        <itemPath>ast/RecordKey.h</itemPath>
+        <itemPath>ast/objinc.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="jgen" displayName="jgen" projectFiles="true">
+        <itemPath>jgen/JBuildFileGenerator.cpp</itemPath>
+        <itemPath>jgen/JBuildFileGenerator.h</itemPath>
+        <itemPath>jgen/JGenConfig.cpp</itemPath>
+        <itemPath>jgen/JGenConfig.h</itemPath>
+        <itemPath>jgen/JGenerator.cpp</itemPath>
+        <itemPath>jgen/JGenerator.h</itemPath>
+        <itemPath>jgen/JGeneratorEnvironment.cpp</itemPath>
+        <itemPath>jgen/JGeneratorEnvironment.h</itemPath>
+        <itemPath>jgen/JMetaClass.cpp</itemPath>
+        <itemPath>jgen/JMetaClass.h</itemPath>
+        <itemPath>jgen/JMetaField.cpp</itemPath>
+        <itemPath>jgen/JMetaField.h</itemPath>
+        <itemPath>jgen/JMetaMethod.cpp</itemPath>
+        <itemPath>jgen/JMetaMethod.h</itemPath>
+        <itemPath>jgen/jcommon.cpp</itemPath>
+        <itemPath>jgen/jcommon.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="proc" displayName="proc" projectFiles="true">
+        <itemPath>proc/CobParagraphDeclaration.cpp</itemPath>
+        <itemPath>proc/CobParagraphDeclaration.h</itemPath>
+        <itemPath>proc/CobProcDivItem.cpp</itemPath>
+        <itemPath>proc/CobProcDivItem.h</itemPath>
+        <itemPath>proc/CobSectionDeclaration.cpp</itemPath>
+        <itemPath>proc/CobSectionDeclaration.h</itemPath>
+        <itemPath>proc/CobSentence.cpp</itemPath>
+        <itemPath>proc/CobSentence.h</itemPath>
+        <itemPath>proc/CobStmtAccept.cpp</itemPath>
+        <itemPath>proc/CobStmtAccept.h</itemPath>
+        <itemPath>proc/CobStmtAdd.cpp</itemPath>
+        <itemPath>proc/CobStmtAdd.h</itemPath>
+        <itemPath>proc/CobStmtAlter.cpp</itemPath>
+        <itemPath>proc/CobStmtAlter.h</itemPath>
+        <itemPath>proc/CobStmtCall.cpp</itemPath>
+        <itemPath>proc/CobStmtCall.h</itemPath>
+        <itemPath>proc/CobStmtCancel.cpp</itemPath>
+        <itemPath>proc/CobStmtCancel.h</itemPath>
+        <itemPath>proc/CobStmtClose.cpp</itemPath>
+        <itemPath>proc/CobStmtClose.h</itemPath>
+        <itemPath>proc/CobStmtCompute.cpp</itemPath>
+        <itemPath>proc/CobStmtCompute.h</itemPath>
+        <itemPath>proc/CobStmtContinue.cpp</itemPath>
+        <itemPath>proc/CobStmtContinue.h</itemPath>
+        <itemPath>proc/CobStmtDelete.cpp</itemPath>
+        <itemPath>proc/CobStmtDelete.h</itemPath>
+        <itemPath>proc/CobStmtDisplay.cpp</itemPath>
+        <itemPath>proc/CobStmtDisplay.h</itemPath>
+        <itemPath>proc/CobStmtDivide.cpp</itemPath>
+        <itemPath>proc/CobStmtDivide.h</itemPath>
+        <itemPath>proc/CobStmtEvaluate.cpp</itemPath>
+        <itemPath>proc/CobStmtEvaluate.h</itemPath>
+        <itemPath>proc/CobStmtExit.cpp</itemPath>
+        <itemPath>proc/CobStmtExit.h</itemPath>
+        <itemPath>proc/CobStmtGenerate.cpp</itemPath>
+        <itemPath>proc/CobStmtGenerate.h</itemPath>
+        <itemPath>proc/CobStmtGoback.cpp</itemPath>
+        <itemPath>proc/CobStmtGoback.h</itemPath>
+        <itemPath>proc/CobStmtGoto.cpp</itemPath>
+        <itemPath>proc/CobStmtGoto.h</itemPath>
+        <itemPath>proc/CobStmtIfElse.cpp</itemPath>
+        <itemPath>proc/CobStmtIfElse.h</itemPath>
+        <itemPath>proc/CobStmtInitialize.cpp</itemPath>
+        <itemPath>proc/CobStmtInitialize.h</itemPath>
+        <itemPath>proc/CobStmtInitiate.cpp</itemPath>
+        <itemPath>proc/CobStmtInitiate.h</itemPath>
+        <itemPath>proc/CobStmtInspect.cpp</itemPath>
+        <itemPath>proc/CobStmtInspect.h</itemPath>
+        <itemPath>proc/CobStmtMerge.cpp</itemPath>
+        <itemPath>proc/CobStmtMerge.h</itemPath>
+        <itemPath>proc/CobStmtMove.cpp</itemPath>
+        <itemPath>proc/CobStmtMove.h</itemPath>
+        <itemPath>proc/CobStmtMultiply.cpp</itemPath>
+        <itemPath>proc/CobStmtMultiply.h</itemPath>
+        <itemPath>proc/CobStmtOpen.cpp</itemPath>
+        <itemPath>proc/CobStmtOpen.h</itemPath>
+        <itemPath>proc/CobStmtPerform.cpp</itemPath>
+        <itemPath>proc/CobStmtPerform.h</itemPath>
+        <itemPath>proc/CobStmtPurge.cpp</itemPath>
+        <itemPath>proc/CobStmtPurge.h</itemPath>
+        <itemPath>proc/CobStmtRead.cpp</itemPath>
+        <itemPath>proc/CobStmtRead.h</itemPath>
+        <itemPath>proc/CobStmtRelease.cpp</itemPath>
+        <itemPath>proc/CobStmtRelease.h</itemPath>
+        <itemPath>proc/CobStmtReturn.cpp</itemPath>
+        <itemPath>proc/CobStmtReturn.h</itemPath>
+        <itemPath>proc/CobStmtRewrite.cpp</itemPath>
+        <itemPath>proc/CobStmtRewrite.h</itemPath>
+        <itemPath>proc/CobStmtSearch.cpp</itemPath>
+        <itemPath>proc/CobStmtSearch.h</itemPath>
+        <itemPath>proc/CobStmtSet.cpp</itemPath>
+        <itemPath>proc/CobStmtSet.h</itemPath>
+        <itemPath>proc/CobStmtSort.cpp</itemPath>
+        <itemPath>proc/CobStmtSort.h</itemPath>
+        <itemPath>proc/CobStmtStart.cpp</itemPath>
+        <itemPath>proc/CobStmtStart.h</itemPath>
+        <itemPath>proc/CobStmtStop.cpp</itemPath>
+        <itemPath>proc/CobStmtStop.h</itemPath>
+        <itemPath>proc/CobStmtString.cpp</itemPath>
+        <itemPath>proc/CobStmtString.h</itemPath>
+        <itemPath>proc/CobStmtSubtract.cpp</itemPath>
+        <itemPath>proc/CobStmtSubtract.h</itemPath>
+        <itemPath>proc/CobStmtTerminate.cpp</itemPath>
+        <itemPath>proc/CobStmtTerminate.h</itemPath>
+        <itemPath>proc/CobStmtUnlock.cpp</itemPath>
+        <itemPath>proc/CobStmtUnlock.h</itemPath>
+        <itemPath>proc/CobStmtUnstring.cpp</itemPath>
+        <itemPath>proc/CobStmtUnstring.h</itemPath>
+        <itemPath>proc/CobStmtUse.cpp</itemPath>
+        <itemPath>proc/CobStmtUse.h</itemPath>
+        <itemPath>proc/CobStmtWrite.cpp</itemPath>
+        <itemPath>proc/CobStmtWrite.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="util" displayName="util" projectFiles="true">
+        <itemPath>util/ConfigIO.cpp</itemPath>
+        <itemPath>util/ConfigIO.h</itemPath>
+        <itemPath>util/genutil.cpp</itemPath>
+        <itemPath>util/genutil.h</itemPath>
+        <itemPath>util/hashmap.c</itemPath>
+        <itemPath>util/hashmap.h</itemPath>
+        <itemPath>util/reswords.c</itemPath>
+        <itemPath>util/reswords.h</itemPath>
+      </logicalFolder>
+      <itemPath>cobmain.c</itemPath>
+      <itemPath>cobmain.h</itemPath>
+      <itemPath>global.cpp</itemPath>
+      <itemPath>global.h</itemPath>
+      <itemPath>lex.yy.c</itemPath>
+      <itemPath>procglobal.cpp</itemPath>
+      <itemPath>procglobal.h</itemPath>
+      <itemPath>procinc.h</itemPath>
+      <itemPath>token.l</itemPath>
+      <itemPath>token.y</itemPath>
+      <itemPath>y.tab.c</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>ast</Elem>
+    <Elem>util</Elem>
+    <Elem>proc</Elem>
+    <Elem>jgen</Elem>
+    <Elem>analysis</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>CLang|CLang</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <standard>10</standard>
+        </cTool>
+        <ccTool>
+          <standard>8</standard>
+          <incDir>
+            <pElem>/usr/local/Cellar/boost/1.68.0_1/include</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <linkerAddLib>
+            <pElem>/usr/local/Cellar/boost/1.68.0_1/lib</pElem>
+          </linkerAddLib>
+          <linkerDynSerch>
+            <pElem>.</pElem>
+            <pElem>.</pElem>
+            <pElem>.</pElem>
+            <pElem>.</pElem>
+          </linkerDynSerch>
+        </linkerTool>
+      </compileType>
+      <item path="analysis/Analyzer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="analysis/Analyzer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="analysis/pugiconfig.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="analysis/pugixml.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="analysis/pugixml.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ast/CobCommunicationSection.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ast/CobCommunicationSection.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ast/CobConfigurationSection.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ast/CobConfigurationSection.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ast/CobDataDivision.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ast/CobDataDivision.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ast/CobDeclaratives.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ast/CobDeclaratives.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ast/CobEnvironmentDivision.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ast/CobEnvironmentDivision.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ast/CobFieldRecord.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ast/CobFieldRecord.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ast/CobFieldRecordList.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ast/CobFieldRecordList.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ast/CobFile.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ast/CobFile.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ast/CobFileControl.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ast/CobFileControl.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ast/CobFileDescription.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ast/CobFileDescription.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ast/CobFileSection.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ast/CobFileSection.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ast/CobFunctionDivision.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ast/CobFunctionDivision.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ast/CobIOControl.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ast/CobIOControl.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ast/CobIdentificationDivision.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ast/CobIdentificationDivision.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ast/CobInputOutputSection.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ast/CobInputOutputSection.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ast/CobLinkageSection.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ast/CobLinkageSection.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ast/CobLocalStorageSection.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ast/CobLocalStorageSection.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ast/CobObject.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ast/CobObject.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ast/CobProcedureDivision.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ast/CobProcedureDivision.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ast/CobProject.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ast/CobProject.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ast/CobScreenSection.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ast/CobScreenSection.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ast/CobSortMergeFileControl.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ast/CobSortMergeFileControl.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ast/CobWorkingStorageSection.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ast/CobWorkingStorageSection.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ast/RecordKey.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ast/RecordKey.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ast/objinc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cobmain.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="cobmain.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <folder path="SourceFiles">
+        <ccTool>
+          <preprocessorList>
+            <Elem>GNUWIN32</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <item path="global.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="global.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="jgen/JBuildFileGenerator.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="jgen/JBuildFileGenerator.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="jgen/JGenConfig.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="jgen/JGenConfig.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="jgen/JGenerator.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="jgen/JGenerator.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="jgen/JGeneratorEnvironment.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="jgen/JGeneratorEnvironment.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="jgen/JMetaClass.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="jgen/JMetaClass.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="jgen/JMetaField.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="jgen/JMetaField.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="jgen/JMetaMethod.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="jgen/JMetaMethod.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="jgen/jcommon.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="jgen/jcommon.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="lex.yy.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="proc/CobParagraphDeclaration.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="proc/CobParagraphDeclaration.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="proc/CobProcDivItem.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="proc/CobProcDivItem.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="proc/CobSectionDeclaration.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="proc/CobSectionDeclaration.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="proc/CobSentence.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="proc/CobSentence.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="proc/CobStmtAccept.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="proc/CobStmtAccept.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="proc/CobStmtAdd.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="proc/CobStmtAdd.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="proc/CobStmtAlter.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="proc/CobStmtAlter.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="proc/CobStmtCall.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="proc/CobStmtCall.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="proc/CobStmtCancel.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="proc/CobStmtCancel.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="proc/CobStmtClose.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="proc/CobStmtClose.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="proc/CobStmtCompute.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="proc/CobStmtCompute.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="proc/CobStmtContinue.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="proc/CobStmtContinue.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="proc/CobStmtDelete.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="proc/CobStmtDelete.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="proc/CobStmtDisplay.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="proc/CobStmtDisplay.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="proc/CobStmtDivide.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="proc/CobStmtDivide.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="proc/CobStmtEvaluate.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="proc/CobStmtEvaluate.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="proc/CobStmtExit.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="proc/CobStmtExit.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="proc/CobStmtGenerate.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="proc/CobStmtGenerate.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="proc/CobStmtGoback.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="proc/CobStmtGoback.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="proc/CobStmtGoto.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="proc/CobStmtGoto.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="proc/CobStmtIfElse.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="proc/CobStmtIfElse.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="proc/CobStmtInitialize.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="proc/CobStmtInitialize.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="proc/CobStmtInitiate.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="proc/CobStmtInitiate.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="proc/CobStmtInspect.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="proc/CobStmtInspect.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="proc/CobStmtMerge.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="proc/CobStmtMerge.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="proc/CobStmtMove.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="proc/CobStmtMove.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="proc/CobStmtMultiply.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="proc/CobStmtMultiply.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="proc/CobStmtOpen.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="proc/CobStmtOpen.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="proc/CobStmtPerform.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="proc/CobStmtPerform.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="proc/CobStmtPurge.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="proc/CobStmtPurge.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="proc/CobStmtRead.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="proc/CobStmtRead.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="proc/CobStmtRelease.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="proc/CobStmtRelease.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="proc/CobStmtReturn.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="proc/CobStmtReturn.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="proc/CobStmtRewrite.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="proc/CobStmtRewrite.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="proc/CobStmtSearch.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="proc/CobStmtSearch.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="proc/CobStmtSet.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="proc/CobStmtSet.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="proc/CobStmtSort.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="proc/CobStmtSort.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="proc/CobStmtStart.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="proc/CobStmtStart.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="proc/CobStmtStop.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="proc/CobStmtStop.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="proc/CobStmtString.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="proc/CobStmtString.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="proc/CobStmtSubtract.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="proc/CobStmtSubtract.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="proc/CobStmtTerminate.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="proc/CobStmtTerminate.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="proc/CobStmtUnlock.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="proc/CobStmtUnlock.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="proc/CobStmtUnstring.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="proc/CobStmtUnstring.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="proc/CobStmtUse.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="proc/CobStmtUse.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="proc/CobStmtWrite.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="proc/CobStmtWrite.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="procglobal.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="procglobal.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="procinc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="token.l" ex="false" tool="3" flavor2="0">
+        <customTool>
+          <customToolCommandline>flex -X token.l</customToolCommandline>
+          <customToolDescription>Running lex...</customToolDescription>
+          <customToolOutputs>lex.yy.c</customToolOutputs>
+          <customToolAdditionalDep>y.tab.h</customToolAdditionalDep>
+        </customTool>
+      </item>
+      <item path="token.y" ex="false" tool="3" flavor2="0">
+        <customTool>
+          <customToolCommandline>yacc -d -t  --graph -v token.y</customToolCommandline>
+          <customToolDescription>Running yacc...</customToolDescription>
+          <customToolOutputs>y.tab.c y.tab.h</customToolOutputs>
+        </customTool>
+      </item>
+      <item path="util/ConfigIO.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="util/ConfigIO.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="util/genutil.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="util/genutil.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="util/hashmap.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="util/hashmap.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="util/reswords.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="util/reswords.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="y.tab.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="y.tab.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>GNU|GNU</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+          <standard>8</standard>
+        </ccTool>
+        <linkerTool>
+          <linkerDynSerch>
+            <pElem>.</pElem>
+            <pElem>.</pElem>
+            <pElem>.</pElem>
+            <pElem>.</pElem>
+          </linkerDynSerch>
+        </linkerTool>
+      </compileType>
+      <item path="analysis/Analyzer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="analysis/Analyzer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="analysis/pugiconfig.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="analysis/pugixml.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="analysis/pugixml.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ast/CobCommunicationSection.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ast/CobCommunicationSection.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ast/CobConfigurationSection.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ast/CobConfigurationSection.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ast/CobDataDivision.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ast/CobDataDivision.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ast/CobDeclaratives.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ast/CobDeclaratives.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ast/CobEnvironmentDivision.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ast/CobEnvironmentDivision.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ast/CobFieldRecord.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ast/CobFieldRecord.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ast/CobFieldRecordList.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ast/CobFieldRecordList.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ast/CobFile.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ast/CobFile.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ast/CobFileControl.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ast/CobFileControl.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ast/CobFileDescription.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ast/CobFileDescription.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ast/CobFileSection.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ast/CobFileSection.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ast/CobFunctionDivision.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ast/CobFunctionDivision.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ast/CobIOControl.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ast/CobIOControl.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ast/CobIdentificationDivision.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ast/CobIdentificationDivision.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ast/CobInputOutputSection.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ast/CobInputOutputSection.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ast/CobLinkageSection.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ast/CobLinkageSection.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ast/CobLocalStorageSection.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ast/CobLocalStorageSection.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ast/CobObject.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ast/CobObject.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ast/CobProcedureDivision.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ast/CobProcedureDivision.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ast/CobProject.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ast/CobProject.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ast/CobScreenSection.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ast/CobScreenSection.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ast/CobSortMergeFileControl.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ast/CobSortMergeFileControl.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ast/CobWorkingStorageSection.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ast/CobWorkingStorageSection.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ast/RecordKey.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ast/RecordKey.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ast/objinc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cobmain.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="cobmain.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="global.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="global.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="jgen/JBuildFileGenerator.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="jgen/JBuildFileGenerator.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="jgen/JGenConfig.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="jgen/JGenConfig.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="jgen/JGenerator.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="jgen/JGenerator.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="jgen/JGeneratorEnvironment.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="jgen/JGeneratorEnvironment.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="jgen/JMetaClass.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="jgen/JMetaClass.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="jgen/JMetaField.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="jgen/JMetaField.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="jgen/JMetaMethod.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="jgen/JMetaMethod.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="jgen/jcommon.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="jgen/jcommon.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="lex.yy.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="proc/CobParagraphDeclaration.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="proc/CobParagraphDeclaration.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="proc/CobProcDivItem.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="proc/CobProcDivItem.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="proc/CobSectionDeclaration.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="proc/CobSectionDeclaration.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="proc/CobSentence.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="proc/CobSentence.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="proc/CobStmtAccept.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="proc/CobStmtAccept.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="proc/CobStmtAdd.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="proc/CobStmtAdd.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="proc/CobStmtAlter.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="proc/CobStmtAlter.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="proc/CobStmtCall.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="proc/CobStmtCall.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="proc/CobStmtCancel.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="proc/CobStmtCancel.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="proc/CobStmtClose.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="proc/CobStmtClose.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="proc/CobStmtCompute.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="proc/CobStmtCompute.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="proc/CobStmtContinue.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="proc/CobStmtContinue.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="proc/CobStmtDelete.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="proc/CobStmtDelete.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="proc/CobStmtDisplay.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="proc/CobStmtDisplay.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="proc/CobStmtDivide.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="proc/CobStmtDivide.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="proc/CobStmtEvaluate.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="proc/CobStmtEvaluate.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="proc/CobStmtExit.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="proc/CobStmtExit.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="proc/CobStmtGenerate.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="proc/CobStmtGenerate.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="proc/CobStmtGoback.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="proc/CobStmtGoback.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="proc/CobStmtGoto.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="proc/CobStmtGoto.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="proc/CobStmtIfElse.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="proc/CobStmtIfElse.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="proc/CobStmtInitialize.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="proc/CobStmtInitialize.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="proc/CobStmtInitiate.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="proc/CobStmtInitiate.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="proc/CobStmtInspect.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="proc/CobStmtInspect.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="proc/CobStmtMerge.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="proc/CobStmtMerge.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="proc/CobStmtMove.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="proc/CobStmtMove.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="proc/CobStmtMultiply.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="proc/CobStmtMultiply.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="proc/CobStmtOpen.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="proc/CobStmtOpen.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="proc/CobStmtPerform.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="proc/CobStmtPerform.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="proc/CobStmtPurge.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="proc/CobStmtPurge.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="proc/CobStmtRead.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="proc/CobStmtRead.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="proc/CobStmtRelease.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="proc/CobStmtRelease.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="proc/CobStmtReturn.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="proc/CobStmtReturn.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="proc/CobStmtRewrite.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="proc/CobStmtRewrite.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="proc/CobStmtSearch.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="proc/CobStmtSearch.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="proc/CobStmtSet.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="proc/CobStmtSet.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="proc/CobStmtSort.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="proc/CobStmtSort.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="proc/CobStmtStart.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="proc/CobStmtStart.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="proc/CobStmtStop.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="proc/CobStmtStop.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="proc/CobStmtString.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="proc/CobStmtString.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="proc/CobStmtSubtract.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="proc/CobStmtSubtract.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="proc/CobStmtTerminate.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="proc/CobStmtTerminate.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="proc/CobStmtUnlock.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="proc/CobStmtUnlock.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="proc/CobStmtUnstring.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="proc/CobStmtUnstring.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="proc/CobStmtUse.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="proc/CobStmtUse.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="proc/CobStmtWrite.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="proc/CobStmtWrite.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="procglobal.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="procglobal.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="procinc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="token.l" ex="false" tool="3" flavor2="0">
+        <customTool>
+          <customToolCommandline>flex token.l</customToolCommandline>
+          <customToolOutputs>lex.yy.c</customToolOutputs>
+          <customToolAdditionalDep>y.tab.h</customToolAdditionalDep>
+        </customTool>
+      </item>
+      <item path="token.y" ex="false" tool="3" flavor2="0">
+        <customTool>
+          <customToolCommandline>yacc -d  -v token.y</customToolCommandline>
+          <customToolOutputs>y.tab.c y.tab.h</customToolOutputs>
+        </customTool>
+      </item>
+      <item path="util/ConfigIO.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="util/ConfigIO.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="util/genutil.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="util/genutil.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="util/hashmap.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="util/hashmap.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="util/reswords.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="util/reswords.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="y.tab.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="y.tab.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
